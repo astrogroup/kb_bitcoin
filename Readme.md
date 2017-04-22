@@ -8,8 +8,9 @@ $gem install bundler
 # install dependancy
 $bundle
 
-Edit your password.yml and set your API key
-(API key is issued in each exchanges. Log in the exchage site and check it.)
+$cp password_example.yml password.yml
+# Edit your password.yml and set your API key
+#(API key is issued in each exchanges. Log in the exchage site and check it.)
 
 $bundle exec ruby trade.rb
 then, board prices are printed.
